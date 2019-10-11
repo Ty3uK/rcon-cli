@@ -1,6 +1,6 @@
 {
   "name": "rcon-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rcon client, based on node-rcon library. Tested on HLDS (Counter-Strike 1.6).",
   "keywords": [
     "rcon",
