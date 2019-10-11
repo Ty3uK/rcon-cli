@@ -1,0 +1,33 @@
+{
+  "name": "rcon-cli",
+  "version": "1.0.0",
+  "description": "Rcon client, based on node-rcon library. Tested on HLDS (Counter-Strike 1.6).",
+  "keywords": [
+    "rcon",
+    "hlds",
+    "node-rcon"
+  ],
+  "license": "MIT",
+  "author": "Maksim Karelov <max.karelov@gmail.com> (https://karelov.info)",
+  "main": "index.js",
+  "bin": {
+    "rcon-client": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ty3uK/rcon-cli.git"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "release:patch": "npm run release -- --release-as patch",
+    "release:minor": "npm run release -- --release-as minor",
+    "release:major": "npm run release -- --release-as major"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "rcon": "^1.0.3"
+  },
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  }
+}
