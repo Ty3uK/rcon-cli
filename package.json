@@ -11,7 +11,7 @@
   "author": "Maksim Karelov <max.karelov@gmail.com> (https://karelov.info)",
   "main": "index.js",
   "bin": {
-    "rcon-client": "./index.js"
+    "rcon-cli": "./index.js"
   },
   "repository": {
     "type": "git",
