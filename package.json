@@ -28,6 +28,6 @@
     "rcon": "^1.0.3"
   },
   "devDependencies": {
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.1"
   }
 }
